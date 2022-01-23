@@ -33,6 +33,7 @@ font-family: Arial;
 }
 .col {
      flex: auto;
+     width:160px;
 }
 
 
@@ -76,23 +77,59 @@ font-family: Arial;
 /* Страничка жанров и тегов */
 
 .genre-first {
-
-
+             width:100%;
+             height:30px;
+             border: solid 1px white;
+             border-radius: 4px;
+             background-color:#E1F5EA;
+             margin-top: 10px;
+             margin-bottom: 10px;
+             padding-top: 5px;
+             padding-left: 10px;
 }
 
 .genre-second {
-
+              width:75%;
+              height:30px;
+              border: solid 1px white;
+              border-radius: 4px;
+              background-color:#CBEDFF;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              padding-top: 5px;
+              padding-left: 10px;
 }
 
-.genre-third {
 
+
+.genre-third {
+              width:50%;
+              height:30px;
+              border: solid 1px white;
+              border-radius: 4px;
+              background-color:#EEE5BD;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              padding-top: 5px;
+              padding-left: 10px;
 }
 
 .genre-fourth {
-
+              width:25%;
+              height:30px;
+              border: solid 1px white;
+              border-radius: 4px;
+              background-color:#EBDCF9;
+              margin-top: 10px;
+              margin-bottom: 10px;
+              padding-top: 5px;
+              padding-left: 10px;
 }
 
+
+
 .tag {
+width: 30px;
 
 }
 
